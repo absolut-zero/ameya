@@ -1,0 +1,49 @@
+.icon {
+  width: 3rem;
+  filter: brightness(0) saturate(100%);
+  cursor: pointer;
+
+  &--linkedin {
+    content: asset-url('linkedin.svg');
+  }
+
+  &--github {
+    content: asset-url('github.svg');
+  }
+}
+
+@-webkit-keyframes icon {
+  0% {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(32%) saturate(1110%) hue-rotate(132deg) brightness(93%) contrast(96%);
+  }
+
+  33.3333% {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(73%) saturate(7349%) hue-rotate(268deg) brightness(100%) contrast(105%);
+  }
+
+  66.666% {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(90%) saturate(4593%) hue-rotate(352deg) brightness(95%) contrast(91%);
+  }
+
+  100% {
+    filter: brightness(0) saturate(100%) invert(71%) sepia(77%) saturate(592%) hue-rotate(355deg) brightness(101%) contrast(92%);
+  }
+}
+
+@keyframes icon {
+  0% {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(32%) saturate(1110%) hue-rotate(132deg) brightness(93%) contrast(96%);
+  }
+
+  33.3333% {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(73%) saturate(7349%) hue-rotate(268deg) brightness(100%) contrast(105%);
+  }
+
+  66.666% {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(90%) saturate(4593%) hue-rotate(352deg) brightness(95%) contrast(91%);
+  }
+
+  100% {
+    filter: brightness(0) saturate(100%) invert(71%) sepia(77%) saturate(592%) hue-rotate(355deg) brightness(101%) contrast(92%);
+  }
+}

@@ -1,0 +1,42 @@
+.text {
+  font-size: 1rem;
+
+  &--main {
+    font-size: 4rem;
+  }
+
+  &--secondary {
+    font-size: 2rem;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--pad-top {
+    padding-top: 100px;
+  }
+
+  &--blink {
+    -webkit-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
