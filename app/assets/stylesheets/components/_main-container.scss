@@ -1,0 +1,63 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__contact-icons {
+    display: flex;
+    width: 9rem;
+    height: 9rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &--inner-border {
+    -webkit-box-shadow:inset 0px 0px 0px 12px 19dcea;
+    -moz-box-shadow:inset 0px 0px 0px 12px 19dcea;
+    box-shadow:inset 0px 0px 0px 12px 19dcea;
+  }
+
+  &--animate-border {
+    -webkit-animation: main-container--animate-border 6s linear infinite alternate both;
+    animation: main-container--animate-border 6s linear infinite alternate both;
+  }
+}
+
+@-webkit-keyframes main-container--animate-border {
+  0% {
+    box-shadow: inset 0px 0px 0px 12px #19dcea;
+  }
+
+  33.3333% {
+    box-shadow: inset 0px 0px 0px 12px #b22cff;
+  }
+
+  66.666% {
+    box-shadow: inset 0px 0px 0px 12px #ea2222;
+  }
+
+  100% {
+    box-shadow: inset 0px 0px 0px 12px #f5be10;
+  }
+}
+
+@keyframes main-container--animate-border {
+  0% {
+    box-shadow: inset 0px 0px 0px 12px #19dcea;
+  }
+
+  33.3333% {
+    box-shadow: inset 0px 0px 0px 12px #b22cff;
+  }
+
+  66.666% {
+    box-shadow: inset 0px 0px 0px 12px #ea2222;
+  }
+
+  100% {
+    box-shadow: inset 0px 0px 0px 12px #f5be10;
+  }
+}

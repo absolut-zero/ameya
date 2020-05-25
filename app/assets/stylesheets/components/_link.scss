@@ -1,0 +1,52 @@
+.link {
+  font-size: 2rem;
+  color: black;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-animation: link 6s linear infinite alternate both;
+    animation: link 6s linear infinite alternate both;
+
+    & > i {
+      -webkit-animation: icon 6s linear infinite alternate both;
+      animation: icon 6s linear infinite alternate both;
+    }
+  }
+}
+
+@-webkit-keyframes link {
+  0% {
+    color: #19dcea;
+  }
+
+  33.3333% {
+    color: #b22cff;
+  }
+
+  66.666% {
+    color: #ea2222;
+  }
+
+  100% {
+    color: #f5be10;
+  }
+}
+
+@keyframes link {
+  0% {
+    color: #19dcea;
+  }
+
+  33.3333% {
+    color: #b22cff;
+  }
+
+  66.666% {
+    color: #ea2222;
+  }
+
+  100% {
+    color: #f5be10;
+  }
+}
