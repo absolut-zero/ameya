@@ -12,6 +12,11 @@
   }
 }
 
+.favicon-canvas {
+  display: none;
+  position: absolute;
+}
+
 @-webkit-keyframes icon {
   0% {
     filter: brightness(0) saturate(100%) invert(75%) sepia(32%) saturate(1110%) hue-rotate(132deg) brightness(93%) contrast(96%);

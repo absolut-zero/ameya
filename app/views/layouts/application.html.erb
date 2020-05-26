@@ -3,16 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TODO</title>
+    <%= favicon_link_tag asset_path('favicon.svg') %>
+    <title>Ameya Akhouri</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
+    <canvas class="favicon-canvas" width="32" height="32"></canvas>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
 
     <%= javascript_pack_tag 'application' %>
   </body>
 </html>
+
+<!-- rgb(25, 220, 234) -->
+<!-- hsl(184, 100%, 56%) -->
+
+<!-- rgb(178, 44, 255) -->
+<!-- hsl(278, 100%, 56%) -->
+
+<!-- rgb(234, 34, 34) -->
+<!-- hsl(0, 100%, 55%) -->
+
+<!-- rgb(245, 190, 16) -->
+<!-- hsl(46, 100%, 56%) -->
